@@ -8,7 +8,10 @@ Category.init(
   {
     // Definition of Collumns for the Category Model, named "id" and
     // "category_name" respectively
-    // id is a required field as a primary key, is an integer, cannot be null, and autoincrements
+    
+    // id is a primary key meaning its referenced as a foreign key elsewhere,
+    // is an integer, cannot be null, and autoincrements
+    
     // category_name is a string and cannot be null
     id: {
       type: DataTypes.INTEGER,
